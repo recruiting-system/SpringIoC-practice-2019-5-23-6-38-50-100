@@ -6,4 +6,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--Code here-->
+       <bean id="HelloWorldBean" class="com.example.SpringIoCpractice.HelloWorld">
+        <property name="hello" value="helloworld zhongyuanyinhang"></property>
+    </bean>
 </beans>
